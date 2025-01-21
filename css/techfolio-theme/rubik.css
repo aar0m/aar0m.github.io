@@ -7,17 +7,18 @@
 /* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
   --bs-font-sans-serif: "Open Sans", sans-serif;
-  --bs-link-color: var(--bs-blue);
+  --bs-link-color: var(--bs-white);
   --tf-pill-bg: var(--bs-gray);
   --tf-icon-fill: var(--bs-gray);
-  --tf-icon-hover: var(--bs-gray-500);
-  --tf-page-bg-color: var(--bs-white);
-  --tf-footer-bg-color: var(--bs-gray-200);
+  --tf-icon-hover: var(--bs-white);
+  --tf-page-bg-color: var(--bs-black);
+  --tf-footer-bg-color: var(--bs-gray-500);
   --tf-projects-bg-color: var(--bs-gray-100);
 }
 
 h1,h2,h3,h4,h5 {
   font-family: Rubik;
+  color: var(--bs-white);
 }
 
 /* Format social media icons */
@@ -36,6 +37,7 @@ h1,h2,h3,h4,h5 {
 
 a {
   text-decoration: none;
+  color: var(--bs-white);
 }
 
 @media (max-width: 500px) {
