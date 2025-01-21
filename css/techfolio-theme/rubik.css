@@ -6,12 +6,14 @@
 
 /* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
+  --tf-black: #000000;
+  --tf-gray: #b9b9b9;
   --bs-font-sans-serif: "Open Sans", sans-serif;
   --bs-link-color: var(--bs-white);
-  --tf-pill-bg: var(--bs-gray);
-  --tf-icon-fill: var(--bs-gray);
+  --tf-pill-bg: var(--tf-gray);
+  --tf-icon-fill: var(--tf-gray);
   --tf-icon-hover: var(--bs-white);
-  --tf-page-bg-color: var(--bs-black);
+  --tf-page-bg-color: var(--tf-black);
   --tf-footer-bg-color: var(--bs-gray-500);
   --tf-projects-bg-color: var(--bs-gray-100);
 }
