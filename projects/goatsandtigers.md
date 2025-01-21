@@ -46,4 +46,4 @@ _GAME_TYPE = pyspiel.GameType(
     parameter_specification={})
 ```
 
-You can learn more at the [UH Vertically Integrated Projects (VIP) Website](https://manoa.hawaii.edu/uh-vip/project/asig/).
+You can learn more at the [UH Vertically Integrated Projects (VIP) Website](https://manoa.hawaii.edu/uh-vip/project/asig/) and view a version of the [GitHub repository](https://github.com/nsanthan/tigersandgoats).
