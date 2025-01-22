@@ -47,3 +47,5 @@ _GAME_TYPE = pyspiel.GameType(
 ```
 
 You can learn more at the [UH Vertically Integrated Projects (VIP) Website](https://manoa.hawaii.edu/uh-vip/project/asig/) and view a version of the [GitHub repository](https://github.com/nsanthan/tigersandgoats).
+
+You can also check out my [report](essays/Reinforcement_Learning_for_Inferring_Board_Game_Strategies_RamosAaron.pdf).

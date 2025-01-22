@@ -1,8 +1,8 @@
 ---
 layout: project
 type: project
-image: img/goatsandtigers/goats-and-tigers_wallpaper_centered.png
-title: "Goats and Tigers"
+image: img/personal/personal-logo.png
+title: "Personal Portfolio"
 date: 2024-12-22
 published: true
 labels:
