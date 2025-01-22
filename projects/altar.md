@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/altar/altar-logo
+image: img/altar/altar-logo.png
 title: "Altar"
 date: 2024-10-03
 published: true

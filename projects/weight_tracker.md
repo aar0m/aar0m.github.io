@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/goatsandtigers/goats-and-tigers_wallpaper_centered.png
-title: "Goats and Tigers"
+title: "Weight Tracker"
 date: 2024-01-14
 published: true
 labels:
