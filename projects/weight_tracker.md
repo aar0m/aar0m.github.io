@@ -7,9 +7,8 @@ date: 2024-01-14
 published: true
 labels:
   - Python
-  - Neural Networks
-  - Machine Learning
-  - OpenSpiel
+  - Automation
+  - Database
 summary: "A VIP X96 Project developed by our team that uses neural networks to infer optimal board game strategies."
 ---
 
@@ -17,7 +16,7 @@ summary: "A VIP X96 Project developed by our team that uses neural networks to i
 
 "Goats and Tigers" or _Huligutta_ is a turn-based game that pits two players against each other on a uniquely shaped map consisting of empty nodes. Similar to chess, each player takes control of a piece (Goat or Tiger) and must achieve a piece-specific win condition based on their available moveset. Three Tiger pieces exist on the board before the game starts and can be moved immediately, whereas 15 Goat pieces must be placed on the board before each individual piece can be moved. Both pieces can only move to adjacent nodes. Tigers win by **capturing** 6 Goats, a move where Tigers remove Goat pieces from play. Capturing is only possible when the Tiger is next to a Goat and the Goat has an empty space behind it. Goats win by **stalemating** all 3 Tigers. This is achieved by having Goats surround all 3 Tigers in a manner that prevents Tigers from making any movements or captures.
 
-We use this game as a framework for developing a player model that can succesfully win as the Goat player. This is completed through the implementation of _Deep Neural Networks_ and _Reinforcement Learning_ (RL). Currently, we are attempting to increase the scope of this project by using available RL libraries and environments (i.e. OpenSpiel) to train player models for a Tiger player. I am a programmer for this project, responsible for refactoring the game (originally implemented in Python) so that it is compatible with the RL libraries and environments so new models can be trained. So far, this project has allowed me to **exercise my skills in Python, review foundational concepts in machine learning, neural networks, and proability, while building up my ability to implement projects using existing libraries.**
+We use this game as a framework for developing a player model that can succesfully win as the Goat player. This is completed through the implementation of _Deep Neural Networks_ and _Reinforcement Learning_ (RL). Currently, we are attempting to increase the scope of this project by using available RL libraries and environments (i.e. OpenSpiel) to train player models for a Tiger player. I am a programmer for this project, responsible for refactoring the game (originally implemented in Python) so that it is compatible with the RL libraries and environments so new models can be trained.
 
 This code simply instantiates the game and specifies the parameters required so it can interface with the OpenSpiel library.
 
