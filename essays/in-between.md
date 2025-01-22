@@ -3,10 +3,11 @@ layout: essay
 type: essay
 title: "The difficult things will always be difficult"
 # All dates must be YYYY-MM-DD format!
-date: 2016-02-06
-published: false
+date: 2025-01-22
+published: true
 labels:
-  - Engineering
+  - JavaScript/TypeScript
+  - Programming Languages
 ---
 
 <img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
@@ -21,7 +22,7 @@ But the more I though about it, the more I wondered to myself...damn that's a re
 
 Here's what I think: the difficult things will always be difficult.
 
-## In the context of programming
+## The _Goldilocks_ problem of programming languages
 
 In the context of programming, this has always been true. The difficult problems have always been different, although changes in technology can change the landscape quite a bit. "Business" type applications are the things that come to mind for me. Those types of applications are usually coupled in some way with people ... and people are awfully hard to deal with!
 
@@ -29,7 +30,7 @@ Consider that one of the most popular content management systems is also conside
 
 Some things are just difficult - building applications that humans use is hard, and will probably be hard for at least the near future.
 
-## In the context of engineering
+## Too flexible! (and without braces)
 
 Ever hear people ragging on engineering companies for delivering late and way over budget? Well, some engineering jobs are really difficult, especially if the requirements and funding are undulating underneath you. Because of the nature of the problem, sometimes engineering firms require large amounts of engineers and workers, inviting further problems and delays.
 
@@ -37,7 +38,7 @@ The Honolulu Rail project at home has become this sort of poster child of failur
 
 The problem of creating an unprecedented public transportation backbone on an island is difficult! I'm not sure we would have done it right, even if the best people were involved.
 
-## In the context of relationships
+## Too rigid! (and methodical)
 
 So in the end, we realize that all engineering and programming is there for a reason - to serve human needs. Maybe that's why those things are difficult, because they both involve humans and are for humans.
 
@@ -45,7 +46,7 @@ Relationships, regardless if they're romantic or not take work. Humans are fickl
 
 Relationships have always been difficult, and by nature will continue to be so.
 
-## Okay!
+## TypeScript, just right!
 
 So back to the original premise; why is being one of the club officers so difficult?
 
