@@ -14,9 +14,9 @@ labels:
 
 Every programmer has a preferred coding language. For some, it is the first language they learned; for others, it is the language they are currently using for work, school, or some personal project. There are those who prefer C++, Python, or JavaScript, and even mad geniuses that enjoy assembly. 
 
-Personally, I prefer **Python** because it is both the first language I learned and a language with a flush collection of libraries to implement machine learning and artifical intelligence. Although I am a Python enthuasiast, I do lament the lack of braces and understand the argument of the language feeling _loose_ in terms of typecasting variables and the lengthy compilation process.
+Personally, I prefer **Python** because it is both the first language I learned and a language with a flush collection of libraries to implement machine learning and artificial intelligence. Although I am a Python enthusiast, I do lament the lack of braces and understand the argument of the language feeling _loose_ in terms of type casting variables and the lengthy compilation process.
 
-Compared to Python, I found Javascript (a language that I recently picked up as of writing), to feel very familiar---like Python but with braces! Then, I began to wonder how the current programming languages I know (C, C++, Python, JavaScript, TypeScript) stack up against each other and which one is logically "just right" without personal biases. This is how my idea of the **Goldilocks Problem** for programming languages came to be.
+Compared to Python, I found Javascript (a language that I recently picked up as of writing) to feel very familiar---like Python but with braces! Then, I began to wonder how the current programming languages I know (C, C++, Python, JavaScript, TypeScript) stack up against each other and which one is logically "just right" without personal biases. This is how my idea of the **Goldilocks Problem** for programming languages came to be.
 
 
 ## Too rigid!
@@ -66,7 +66,7 @@ From this, we note the various types and sheer presence of keywords to describe 
 
 ## Too flexible!
 
-I have already iterated that Python feels the most loose and fast. Fantastic for creating scripts and using libraries but very easy to lose track of whitespaces, forget what datatypes are being used, and ensuring instructions execute where they need to be executed. For exmaple, examine the following excerpt from a function to get calories from my [weight tracker project](https://aar0m.github.io/projects/weight_tracker.html):
+I have already iterated that Python feels the most loose and fast. Fantastic for creating scripts and using libraries but very easy to lose track of whitespaces, forget what datatypes are being used, and ensure instructions execute where they need to be executed. For example, examine the following excerpt from a function to get calories from my [weight tracker project](https://aar0m.github.io/projects/weight_tracker.html):
 
 ```python
 def getCal():
@@ -82,7 +82,7 @@ def getCal():
     possVal = f"[1 - {len(mealTypes)}]"
 ```
 
-As shown, variables are simply instantiated without regard for types, while functions are called on elements with inferred types. Without explicti declarations, thes variables could be transformed and I would be none the wiser (until errors messages are thrown). On top of all this, there are no braces! Therefore, it can be concluded that Python, while great for programmers who want to quickly make scripts or work with libraries, feels too loose to be considered a programming language that is "just right". 
+As shown, variables are simply instantiated without regard for types, while functions are called on elements with inferred types. Without explicit declarations, these variables could be transformed and I would be none the wiser (until errors messages are thrown). On top of all this, there are no braces! Therefore, it can be concluded that Python, while great for programmers who want to quickly make scripts or work with libraries, feels too loose to be considered a programming language that is "just right". 
 
 
 ## TypeScript : just right!
@@ -111,7 +111,7 @@ console.log(isUnique1('abcde'));  // prints true
 console.log(isUnique1('abcdea')); // prints false
 ```
 
-This code may strike an unattentive reader as C/C++ due to the myriad of types but the multiple object-oriented methods invoke a Pythonic feel. This was very helpful when learning both JavaScript and TypeScript through online coding courses. The blending of language conventions had allowed me to comfortably focus on higher conceptual aspects that were distinct/more prevalent in JavaScript---like web development applications or object-oriented methods for various datatypes---ather than becoming solely hung up on syntax or basic programming concepts. Additionalyl, learning TypeScript was just as, if not more comfortable than JavaScript due to the fact that I was able to clearly distinguish variable datatypes from one another and invoke C-like typing behavior. The TypeScript compiler is also a very neat and interesting mechanism, reminiscent of writing tools for word documents; only this time, the compiler is checking for type discontinuity and logical errors instead of grammar mistakes or spelling issues.
+This code may strike an inattentive reader as C/C++ due to the myriad of types but the multiple object-oriented methods invoke a Pythonic feel. This was very helpful when learning both JavaScript and TypeScript through online coding courses. The blending of language conventions had allowed me to comfortably focus on higher conceptual aspects that were distinct/more prevalent in JavaScript---like web development applications or object-oriented methods for various datatypes---rather than becoming solely hung up on syntax or basic programming concepts. Additionally, learning TypeScript was just as, if not more comfortable than JavaScript due to the fact that I was able to clearly distinguish variable datatypes from one another and invoke C-like typing behavior. The TypeScript compiler is also a very neat and interesting mechanism, reminiscent of writing tools for word documents; only this time, the compiler is checking for type discontinuity and logical errors instead of grammar mistakes or spelling issues.
 
 Another aspect that truly aided me in learning JavaScript and TypeScript was the athletic software engineering workflow, characterized by constat repetitions and increasing difficulty; this workflow provides an athletic framework to developing software engineering skills and building up stronger "coding muscles". 
 
