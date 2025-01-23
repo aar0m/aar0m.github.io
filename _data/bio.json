@@ -25,11 +25,11 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Python" ]
+      "keywords": [ "C", "C++", "Java", "Javascript/TypeScript", "Python" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "Visual Studio Code" ]
+      "keywords": [ "MacOS", "Windows", "Git/GitHub", "Visual Studio Code", "Adobe Photoshop", "Figma" ]
     }
   ],
   "education": [
@@ -37,7 +37,7 @@
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Computer Engineering (expected Spring, 2025)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2020-10-22",
       "endDate": "Present",
       "courses": [
       ]
@@ -45,69 +45,80 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "University of Hawaii Department of Electrical and Computer Engineeering",
+      "position": "EE Grader",
+      "website": "https://ee.hawaii.edu/",
+      "startDate": "2024-08-01",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Grader for multiple electrical and computer engineering courses",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Grade and record submissions for homework, projects, and sometimes exams",
+        "Verify, update, and oversee student grades",
+        "Effectively communicate and consult professors regarding special issues or breaches of academic dishonesty"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
+      "organization": "Phorpho Game House",
+      "website": "",
+      "position": "Programmer, Artist",
+      "startDate": "2024-11-17",
       "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "summary": "Artist and programming collaborator for game developement",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Illustrate concept art for enemy mobs and ideate item designs",
+        "Test and program game prototypes", 
+        "Directly test gameplay elements"
       ]
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "organization": "University of Hawaii at Manoa",
+      "website": "https://hanqingguo.github.io/",
+      "position": "Research Assistant",
+      "startDate": "2024-08-20",
+      "endDate": "Present",
+      "summary": "Research assistant to assess AI watermark robustness",
+      "highlights":  [
+        "Conduct experiments testing physical distortions against AI watermarks",
+        "Evaluate data to determine AI watermark robustness against distortions",
+        "Help write, edit, and proofread sections of a research paper discussing findings"
+      ]
+    },
+    {
+      "organization": "Activistion Blizzard",
+      "website": "https://www.activisionblizzard.com/",
+      "position": "Summer Intern",
+      "startDate": "2022-06-01",
+      "endDate": "2022-07-14",
+      "summary": "Multi-purpose intern to facilitate 2022 'Midseason Madness' Overwatch event",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Produce graphics communicating collaboration between UH Esports and Activistion Blizzard",
+        "Install computer hardware and setup gaming equipment",
+        "Prepare esports arena set and hardware transportation",
+        "Coordinate/guide players to designated areas"
+      ]
+    },
+    {
+      "organization": "UH Esports",
+      "website": "https://www.instagram.com/uhesports/?hl=en",
+      "position": "Graphic Designer",
+      "startDate": "2021-08-18",
+      "endDate": "2022-09-24",
+      "summary": "Designer involved in graphic creation and delivery",
+      "highlights": [
+        "Design 35+ informative and engaging graphics across UH Esports social media platforms (Instagram, X, Discord, etc.)",
+        "Pitch primitve spreadsheet system to document graphics, commisioners, and designers",
+        "Communicate with supervisors, tem leads, and peers to effectively create relevant graphics in a timely manner"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Dean's List",
+      "date": "2021-2024",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Distinction awared to undergraduate students when they earn a semester GPA of 3.5 or higher based on 12 credits or more"
     }
   ],
   "references": [

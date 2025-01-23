@@ -10,7 +10,7 @@ labels:
   - Programming Languages
 ---
 
-<img width="700px" class="rounded float-start pe-4" src="../img/essays-img/programming-languages.png">
+<img width="750px" class="rounded float-start pe-4" src="../img/essays-img/programming-languages.png">
 
 Every programmer has a preferred coding language. For some, it is the first language they learned; for others, it is the language they are currently using for work, school, or some personal project. There are those who prefer C++, Python, or JavaScript, and even mad geniuses that enjoy assembly. 
 

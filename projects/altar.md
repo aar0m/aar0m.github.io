@@ -12,7 +12,7 @@ labels:
 summary: "A personal group project developing a roguelike deckbuilding game."
 ---
 
-<img class="img-fluid" width="750px" src="../img/altar/Altar_Demo.jpg">
+<img class="img-fluid" width="750px" class="rounded float-start pe-4" src="../img/altar/Altar_Demo.jpg">
 
 Altar is a _roguelike deckbuilding game_ that is set during the 14th century. The general gameplay loop of Altar is building a deck of cards to use as a means of defeating demons. During battle, cards can be placed onto a pentagram, in which card effects can be chained together to perform interesting combos or directly deal damage to the demons until they have no remaining health left. In between battles, the player is presented with additional cards they can purchase to add to their deck. This is the main premise of our game.
 

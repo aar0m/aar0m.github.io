@@ -11,7 +11,7 @@ labels:
 summary: "A simple interface to track weight by logging weight, meals, and snacks."
 ---
 
-<img class="img-fluid" src="../img/weight-tracker/weight-tracker1.png">
+<img class="img-fluid" class="rounded float-start pe-4" src="../img/weight-tracker/weight-tracker1.png">
 
 This simple Python application allows users to track their weight and the calories they consume over time. Specifically, users are given options to log or view certain items; one of which is weight that the user measured themselves. The other item is the food the user consumes. This program queries the estimated calories (kCal) and protein (g) consumed per meal. For snack items, users can instead input the amount of servings consumed and the nutritional facts for one serving, while the program automatically calculates the total calories and proteins consumed. Another capability of this function is the ability to view user weight and meal over varying time periods (e.g., weeks, months, year). Data is stored on _.csv files_ based on months within a year.
 
