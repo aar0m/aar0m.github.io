@@ -87,11 +87,11 @@ As shown, variables are simply instantiated without regard for types, while func
 
 ## TypeScript : just right!
 
-Like Python, JavaScript and its ambiguous typing falls under the same pitfall as Python but with braces. As a newbie to JavaScript (as of writing), the language really did feel like a blend of Python and C/C++, for better or for worse. Being able to write code with braces and types made me feel like I was writing in C but being able to speedily write code emphasized the Pythonic aspect of JavaScript. Unfortunately, I still felt JavaScript to be too loose to be considered "just right."
+Like Python, JavaScript and its ambiguous typing falls under the same pitfall as Python but with braces. As a newbie to JavaScript (as of writing), the language really did feel like a blend of Python and C/C++, for better or for worse. Being able to write code with braces and types made me feel like I was writing in C but being able to speedily write code and object methods emphasized the Pythonic aspect of JavaScript. Unfortunately, I still felt JavaScript to be too loose to be considered "just right."
 
-Enter Typescript. Flexible due to inheriting JavaScript conventions, yet explicit and distinct enough to emulate the typing behavior of C/C++. This was not totally apparent at first but through an athletic software engineering practices---a workflow I find enjoyable due to its realistic pressures, fast pace, and the rewarding feeling when succesfully prepared for/completed---I noticed that TypeScript may be the answer to the Goldilocks problem of programming languages.
+Enter Typescript. Flexible due to inheriting JavaScript conventions, yet explicit and distinct enough to emulate the typing behavior of C/C++. This was not totally apparent at first but through athletic software engineering practices, I noticed that TypeScript may be the answer to the Goldilocks problem of programming languages.
 
-Observer the simple TypeScript function that checks if all letters in a string are unique:
+Observe the simple TypeScript function that checks if all letters in a string are unique:
 ```typescript
 const isUnique1 = (str:string) : boolean => {
     let contains:Map<string, boolean> = new Map();
@@ -111,4 +111,10 @@ console.log(isUnique1('abcde'));  // prints true
 console.log(isUnique1('abcdea')); // prints false
 ```
 
-This code may strike an unattentive reader as C/C++ due to the myriad of types but the multiple object-oriented methods invoke a Pythonic feel. Combined, TypeScript truly felt like an almost perfect blend between C/C++ and Python through such similar conventions being present among each language. TypeScript was not too rigid nor was it too loose. TypeScript felt **just right**.
+This code may strike an unattentive reader as C/C++ due to the myriad of types but the multiple object-oriented methods invoke a Pythonic feel. This was very helpful when learning both JavaScript and TypeScript through online coding courses. The blending of language conventions had allowed me to comfortably focus on higher conceptual aspects that were distinct/more prevalent in JavaScript---like web development applications or object-oriented methods for various datatypes---ather than becoming solely hung up on syntax or basic programming concepts. Additionalyl, learning TypeScript was just as, if not more comfortable than JavaScript due to the fact that I was able to clearly distinguish variable datatypes from one another and invoke C-like typing behavior. The TypeScript compiler is also a very neat and interesting mechanism, reminiscent of writing tools for word documents; only this time, the compiler is checking for type discontinuity and logical errors instead of grammar mistakes or spelling issues.
+
+Another aspect that truly aided me in learning JavaScript and TypeScript was the athletic software engineering workflow, characterized by constat repetitions and increasing difficulty; this workflow provides an athletic framework to developing software engineering skills and building up stronger "coding muscles". 
+
+Though I do not look like it, I enjoy exercising and find it to be a soothing and reliable activity for maintaining both physical and mental health, while reinforcing discipline and commitment. Being able to apply a similar mindset in the context of software engineering felt empowering because I was able to retain a competitive spirit and further motivation to learn JavaScript and TypeScript at a faster pace. Furthermore, there is a humbling yet rewarding feeling to the pressures and realism of an athletic approach to software engineering---timed coding practices, constant work and projects of varying magnitudes, as well as a collaborative environment really puts into perspective the effort, motivation, and humility required to thrive as a software engineer in the real world. 
+
+Altogether, TypeScript truly felt like an almost perfect blend between C/C++ and Python through such similar conventions being present among each language. TypeScript was not too rigid nor was it too loose. TypeScript felt **just right**.
