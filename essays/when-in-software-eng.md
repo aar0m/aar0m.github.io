@@ -11,7 +11,7 @@ labels:
   - Learning
 ---
 
-<img width="80%" class="rounded float-start pe-4" src="../img/essays-img/rome.png">
+<img width="50%" class="rounded float-start pe-4" src="../img/essays-img/rome.png">
 
 The classic adage,
 
