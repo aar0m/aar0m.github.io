@@ -181,7 +181,9 @@ Similar to the prior example, the positive qualities of a smart question will be
 
 - **Content:** The content of the question is deeply informative. First, it reiterates the main goal of the program, integral to troubleshooting. Then, the content provides error messages relevant to the problem encountered, alongside the development tools and environment being used. Both types of information can help readers better understand what the developer is seeing and narrows the scope of the problem from being too vague and general to answer. Moreover, the content reflects that the developer has a deep understanding of what they want their program to do and that they had performed their due diligence of reading documentation, while attempting to independently fix the problem. This is apparent through their mention of supposedly trying a solution, as shown below. As I have covered, attempting to troubleshoot is integral to asking a _good_ smart question that is likely to receive _helpful_ responses.
 
-> "I understand that this is because I am trying to fetch that data from within my localhost and the solution should be using Cross-Origin Resource Sharing (CORS). I thought I actually did that"
+```
+"I understand that this is because I am trying to fetch that data from within my localhost and the solution should be using Cross-Origin Resource Sharing (CORS). I thought I actually did that"
+```
 
 - **Code:** Lastly, the code provided after the context is given, allowing readers to efficiently parse the code without the hassle of trying to figure out its main functionality.
 
