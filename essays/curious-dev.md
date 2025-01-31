@@ -9,17 +9,13 @@ labels:
   - Questions
   - Answers
   - StackOverflow
-
-# The goal of this exercise is not to “prove” that asking questions the smart way is always better (although it would be quite interesting to design an empirical study using StackOverflow to actually gather data on whether “smart” questions do indeed, on average, lead to more effective and efficient answers). Instead, the goal of this exercise is to help you form a deeper understanding of what constitutes “smart” and “not smart” questions so that you are more likely to ask smart ones in the future.
-
-# Write a technical essay that discusses why smart questions are important for smart software engineers, how the chosen questions fulfill (or not) the precepts for smart questions, how the responses reflect the smartness (or lack thereof), and the insights you gained as a result of this experience.
 ---
 
 <img width="100%" src="../img/essays-img/questions.png">
 
 ## Curiosity: a tragic cause of death
 
-Throughout the life cycle of various programs and projects, both experienced and newbie programmers alike eventually encounter issues that they simply do not know the answer to. This is where the distinction between experienced and newbie is exposed; experienced programmers embark on a troubleshooting process that involves due diligence and asking smart questions, whilst newbies programmers may feel inclined to immediately ask for help.
+Throughout the life cycle of various programs and projects, both experienced and newbie programmers alike eventually encounter issues that they simply do not know the answer to. This is where the distinction between experienced and newbie is exposed; experienced programmers embark on a troubleshooting process that involves due diligence and asking smart questions, whilst newbie programmers may feel inclined to immediately ask for help.
 
 Though understandable, this newbie instinct to _ask questions first, think later_ is unfortunately what leads to a prevalent (but very real) cause of death for most projects and programs: **death by curiosity.**
 
@@ -37,93 +33,164 @@ I'm getting error todos.map is not a function, only that line gives error if I r
 Please someone explain this, todos is an array then why the mapping is not working here.
 ```
 
-Preceding the paragraphs is plain-text code from the user program.
+Preceding the paragraphs is plain-text code from the developer program:
+
+```javascript
+import { useState, useEffect } from "react";
+import { TodoProvider } from "./contexts/TodoContext";
+import TodoForm from "./components/TodoForm";
+import TodoItem from "./components/TodoItem";
+
+function App() {
+  const [todos, setTodos] = useState([]);
+
+  const addTodo = (todo) => {
+    setTodos((prev) => [{ id: Date.now(), ...todo }, ...prev]);
+  };
+
+  const updateTodo = (id, todo) => {
+    setTodos((prev) =>
+      prev.map((prevTodo) => (prevTodo.id === id ? todo : prevTodo))
+    );
+  };
+
+  const deleteTodo = (id) => {
+    setTodos((prev) => prev.filter((prevTodo) => prevTodo.id !== id));
+  };
+
+  const toggleComplete = (id) => {
+    setTodos((prev) =>
+      prev.map((prevtodo) =>
+        prevtodo.id === id
+          ? { ...prevtodo, completed: !prevtodo.completed }
+          : prevtodo
+      )
+    );
+  };
+
+  useEffect(() => {
+    const todosLocal = JSON.parse(localStorage.getItem("todos"));
+
+    if (todosLocal && todosLocal.length > 0) {
+      setTodos(todosLocal);
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem("todos", JSON.stringify("todos"));
+  }, [todos]);
+
+  return (
+    <TodoProvider
+      value={{ todos, addTodo, updateTodo, deleteTodo, toggleComplete }}
+    >
+      <h2 className="text-center text-3xl font-bold mt-1">Hello</h2>
+      <div className="bg-[#172842] min-h-screen py-8">
+        <div className="w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 py-3 text-white">
+          <h1 className="text-2xl font-bold text-center mb-8 mt-2">
+            Manage Your Todos
+          </h1>
+          <div className="mb-4">
+            {/* Todo form goes here */}
+            <TodoForm />
+          </div>
+          <div className="flex flex-wrap gap-y-3">
+            {todos.map((todo) => (
+              <div key={todo.id} className="w-full">
+                <TodoItem todo={todo} />
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </TodoProvider>
+  );
+}
+
+export default App;
+```
 
 This example of death by curiosity can be better described as a case study of **how to not properly ask questions**. For a better understanding, I will review the post from top to bottom.
 
-- The title of the question is vague, despite using the 'javascript' tag. The question title, **'Getting data.map is not a function'**,provides no insight into the problem being encountered and poses more confusion for readers, requiring more effort to be put into understanding the problem than discussing a solution.
+- **Title:** The title of the question is vague, despite using the 'javascript' tag. The question title, **'Getting data.map is not a function'**,provides no insight into the problem being encountered and poses more confusion for readers, requiring more effort to be put into understanding the problem than discussing a solution.
 
-- Code is the first item posted; this practice can be overwhelming and confusing due to the lack of context. If I were an expert attempting to answer this question, I would not understand much at this point aside from "getting data.map is not a function".
+- **Code:** The code is the first item posted; though it is well-formatted, this practice can be overwhelming and confusing due to the lack of context. If I were an expert attempting to answer this question, I would not understand much at this point aside from "getting data.map is not a function". Currently, the code provides no substance because its functionality is not explicitly explained by the user.
 
-Therefore, this question clearly demonstrates that the user did not make sincere efforts to resolve their issue diligently and simply sought a quick fix. 
+- **Content:** Lastly, the content of the question. Similar to the point made regarding code, the developer provides little, if any, context about their problem. They simply reiterate that their program is not working without any specificities about the misbehaving code or even what the program is expected to do.
 
-
-
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
-
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+Therefore, this question clearly demonstrates that the developer did not make sincere efforts to resolve their issue diligently and simply sought a quick fix. This is further supported by the solution given:
 
 ```
-Q: python date of the previous month
-
-I am trying to get the date of the previous month with python. Here is what i've tried:
-
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
-
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
-
-I have solved this trouble in bash with:
-
-echo $(date -d"3 month ago" "+%G%m%d")
-
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
-
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
+A: JSON.stringify("todos") 👈 there's your problem. Remove the quotes 
 ```
 
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
-
-```
-A: datetime and the datetime.timedelta classes are your friend.
-
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
-
-Like this:
-
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
-
-```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
+The problem was a basic syntax error. Luckily, the developer was able to make like a bandit and retrieve a relatively quick fix to their issues and "cheat death". However, not all developers are lucky and may idly wait days, weeks, months, or even longer for a response. What's worse is that not all responses are guaranteed to be helpful if the questions being asked are not sufficiently informative, organized, or "smart".
 
 ## Surviving curiosity as a developer
 
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
+Posing a question that is informative and organized, also known as a _smart question_ can lead to thought-provoking discussion, an increase in both response quality and quantity, as well as a chance to problem-solve alongside fellow developers. This set of outcomes prevent projects from becoming stale and, in turn, decreases the likelihood of developers experiencing death by curiosity.
+
+However, asking a smart question is not a simple task. The first step to asking a smart question is to independently troubleshoot the issue at hand. To do this, developers must build and strengthen a skill (or tolerance) to reading. This is because many coding, program, and project issues can be resolved with some time, elbow grease, and a decent reading comprehension. Whether it is a manual, proper web/forum searches, or code itself, the ability to discern main ideas from dense bodies of text and efficiently scan data to find relevant text is a skill applicable in many settings, and perhaps, life in general.
+
+This being said, a smart question encompasses this effort of performing due diligence and even more. I am specfically referring to the content of a smart question. In this case, a [smart question from StackOverflow](https://stackoverflow.com/questions/43871637/no-access-control-allow-origin-header-is-present-on-the-requested-resource-whe) will be reviewed:
 
 ```
-Q: Facebook Desktop Notifier
+Q: No 'Access-Control-Allow-Origin' header is present on the requested resource—when trying to get data from a REST API
 
-I am a beginner programmer that have never used anything other than what's included in a language.
+I'm trying to fetch some data from the REST API of HP Alm. It works pretty well with a small curl script—I get my data.
 
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
+Now doing that with JavaScript, fetch and ES6 (more or less) seems to be a bigger issue. I keep getting this error message: [erorr message omitted from essay]
 
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
+I understand that this is because I am trying to fetch that data from within my localhost and the solution should be using Cross-Origin Resource Sharing (CORS). I thought I actually did that, but somehow it either ignores what I write in the header or the problem is something else.
+
+So, is there an implementation issue? Am I doing it wrong? I can't check the server logs unfortunately. I'm really a bit stuck here.
+
+I am using Chrome. I also tried using that Chrome CORS Plugin, but then I am getting another error message: [error message omitted from essay]
 ```
 
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
+```javascript
+function performSignIn() {
+
+  let headers = new Headers();
+
+  headers.append('Content-Type', 'application/json');
+  headers.append('Accept', 'application/json');
+
+  headers.append('Access-Control-Allow-Origin', 'http://localhost:3000');
+  headers.append('Access-Control-Allow-Credentials', 'true');
+
+  headers.append('GET', 'POST', 'OPTIONS');
+
+  headers.append('Authorization', 'Basic ' + base64.encode(username + ":" + password));
+
+  fetch(sign_in, {
+      //mode: 'no-cors',
+      credentials: 'include',
+      method: 'POST',
+      headers: headers
+    })
+    .then(response => response.json())
+    .then(json => console.log(json))
+    .catch(error => console.log('Authorization failed : ' + error.message));
+}
+```
+
+Similar to the prior example, the positive qualities of a smart question will be revealed from top to bottom.
+
+- **Title:** The title is cleanly divided into two parts: the problem ('No 'Access-Control-Allow-Origin' header is present on the requested resource') and the intended goal  ('—when trying to get data from a REST API'). Though not strictly abiding by what is expected from a smart question, the header is both concise and descriptive enough for potential readers to understand a simplified version of the problem being encountered, allowing for ideation to occur much sooner.
+
+- **Content:** The content of the question is deeply informative. First, it reiterates the main goal of the program, integral to troubleshooting. Then, the content provides error messages relevant to the problem encountered, alongside the development tools and environment being used. Both types of information can help readers better understand what the developer is seeing and narrows the scope of the problem from being too vague and general to answer. Moreover, the content reflects that the developer has a deep understanding of what they want their program to do and that they had performed their due diligence of reading documentation, while attempting to independently fix the problem. This is apparent through their mention of supposedly trying a solution, as shown below. As I have covered, attempting to troubleshoot is integral to asking a _good_ smart question that is likely to receive _helpful_ responses.
+
+> "I understand that this is because I am trying to fetch that data from within my localhost and the solution should be using Cross-Origin Resource Sharing (CORS). I thought I actually did that"
+
+- **Code:** Lastly, the code provided after the context is given, allowing readers to efficiently parse the code without the hassle of trying to figure out its main functionality.
+
+In tandem, these qualities allow for the question asked to be precise in regards to the problem encountered. Surely enough, the developer encountered a [descriptive, smart answer](https://stackoverflow.com/a/43881141), one so descriptive and helpful that it was divided into three sections. 
+
+Neither the specifics nor complexity of the solution are the main focus. Rather, it is to distinctly point out how asking a smart question can lead to descripitive, thorough, and helpful answers, completely avoiding death by curiosity altogether.
 
 ## Conclusion
 
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+Thus, we have shown that death by curiosity does not have to be a signifier of a newbie programmer. In essence, death by curiosity is a pitfall that lazier developers can fall into, seeking quick and easy fixes for what they perceive to be roadblocks. This leads to crudely-asked, vague, and confusing questions that have no regard for the problem being encountered, just a hunger for solutions that will satisfy the problem. 
+
+However, curiosity can be reframed as a tool for making stronger programmers, developers, and hackers. Opposite of roadblocks, errors are more akin to learning opportunities, a capability that can only be exposed by those willing to sincerely engage with and troubleshoot their errors independently and ask 'smart' questions---questions that are concise about the developer's goals, the issue they are experiencing, specificities of their development environment, and all relevant information.
