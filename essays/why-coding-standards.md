@@ -11,7 +11,7 @@ labels:
   - Coding Standards
 ---
 
-<img width="80%" class="rounded float-start pe-4" src="../img/essays-img/code-standards.png">
+<img width="100%" class="rounded float-start pe-4" src="../img/essays-img/code-standards.png">
 
 Reading code is difficult---for many different reasons. In my personal experience, proudly parading my code to non-programmer friends always generates noises of awe, disgust, confusion, apathy, or some morbid combination. On the other hand, casually showing my code to programmer friends always magically leads into a code review session. Though, I cannot say much because I am also guilty of impromptu code reviews. In both cases, reading the code normally starts out difficult. For non-technical people, it is because they see a jumble of letters and symbols that _feel smart_. For programmers, they need to figure out the structure of the code, distinguish originally written code from boilerplate code, and clearly understand what the program is actually trying to accomplish.
 
