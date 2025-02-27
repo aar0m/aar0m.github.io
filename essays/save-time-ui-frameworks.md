@@ -28,12 +28,14 @@ Whilst building my personal portfolio website with HTML/CSS, I deeply struggled 
 
 That being said, the benefits of UI frameworks works almost complementary to strict HTML/CSS. UI frameworks like ReactJS and Bootstrap have more intuitive syntax and workflows, yet feel limited in their fine-tune control. An example to highlight this is recreating the [Shopify Rebellion Homepage](https://shopifyrebellion.gg/). This was a personal project to simply understand the benefits of UI frameworks and become accustomed to Bootstrap syntax. Admittedly, my experience with Bootstrap may have been facilitated through a better understanding of HTML and CSS, but its benefits are applicable to web developers in general. Bootstrap allows developers to specify certain style properties, which are normally dictated in a separate file, within the HTML element itself through various classes. This method of styling allows for websites to be quickly generated as minimal switching of files has to occur and editing style properties of specific elements becomes much more convenient. Moreover, Bootstrap 5 contains understandable classes for certain layouts, such as containers, columns, and rows! With all these features, UI frameworks seem to be much better than raw HTML/CSS. To emphasize this point, [my recreation](https://github.com/aar0m/shopifyrebel-bootsrap) (left) of the official Shopify Rebellion Homepage (right) is almost indistinguishable! Even better is that this recreation only took me a **day** compared to the **weeks** I spent on my personal portfolio. Thus, UI frameworks can explicitly save time AND effort during the website creation process.
 
-<div class='col'>
-  <img width="100%" class="rounded" src="../img/essays-img/bootstrap-remake.png">
-</div>
+<div class='row align-items-start'>
+  <div class='col'>
+    <img width="100%" class="rounded" src="../img/essays-img/bootstrap-remake.png">
+  </div>
 
-<div class='col'>
-  <img width="100%" class="rounded" src="../img/essays-img/bootstrap-real.png">
+  <div class='col'>
+    <img width="100%" class="rounded" src="../img/essays-img/bootstrap-real.png">
+  </div>
 </div>
 
 It is important to note that there are noticeable differences in the websites if examined closely. This is mainly due to the disadvantage of UI frameworks, in which certain styles and properties are "preset", meaning that fine-tune customization options are not necessarily at the forefront of the web-development experience.
