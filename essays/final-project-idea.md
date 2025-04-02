@@ -24,20 +24,26 @@ Users can access a ‘Friends List’ page to favorite, block, or delete existin
 * Landing page
 * User home page
 * User profile page
-  - Add name, photo(s), major, likes/interests, list of (previous/current) classes, dorm/commuter/other status, clubs, MBTI
 * "Matching" page 
-  - Random person pops up and users have the option of “match” or “skip” with two buttons
 * Friends page
-  - Favorites/block list and delete feature
 * Chat page 
-  - List of chats with people matched and selected chat page
 * Settings page
-  - Settings to filter people shown (i.e. )
-// - Limit on likes (maybe)
+
+Here are tentative descriptions of certain pages:
+
+**User Profile:** Add/edit name, photo(s), major, likes/interests, list of (previous/current) classes, dorm/commuter/other status, clubs, MBTI
+
+**Matching:** Random person pops up and users have the option of “match” or “skip” with two buttons
+
+**Friends:** Add freinds to a favorites/block list that can also be accessed; this page also includes the feature to delete friends
+
+**Chat:** List of chats with people matched and a selected chat page that allows for message functioning
+
+**Settings:** Settings to filter people shown (i.e. by major, interests, etc.)
 
 ## Use Case Ideas
 * User goes to landing page, signs up, completes account creation process (adds their name, photo(s), major, likes/interests, list of (previous/current) classes, dorm/commuter/other status, clubs, MBTI)
-* After creating profile, user is brought to matching page and intuitively learns to "match"/"skip"’
+* After creating profile, user is brought to matching page and intuitively learns to "match"/"skip" on profiles shown to them
 * If 2 users “match” on each other’s profiles, they are added to each others’ ‘Friends List’ page and  given a notification above the user profile  that leads them into the chat page
 * _Best case:_ Users chat with each other and become friends.
 * _Worst case:_ After some chats, a user decides to delete/block the other.
