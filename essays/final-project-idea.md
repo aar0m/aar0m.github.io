@@ -29,7 +29,7 @@ Users can access a ‘Friends List’ page to favorite, block, or delete existin
 * Chat page 
 * Settings page
 
-Here are tentative descriptions of certain page implementations:
+Here are tentative descriptions of certain pages:
 
 **User Profile:** Add/edit name, photo(s), major, likes/interests, list of (previous/current) classes, dorm/commuter/other status, clubs, MBTI
 
@@ -45,8 +45,8 @@ Here are tentative descriptions of certain page implementations:
 * User goes to landing page, signs up, completes account creation process (adds their name, photo(s), major, likes/interests, list of (previous/current) classes, dorm/commuter/other status, clubs, MBTI)
 * After creating profile, user is brought to matching page and intuitively learns to "match"/"skip" on profiles shown to them
 * If 2 users “match” on each other’s profiles, they are added to each others’ ‘Friends List’ page and  given a notification above the user profile  that leads them into the chat page
-* _Best case:_ Users chat with each other and become friends.
-* _Worst case:_ After some chats, a user decides to delete/block the other.
+* _Best case:_ Users chat with each other and become friends
+* _Worst case:_ After some chats, a user decides to delete/block the other
 
 ## Beyond the Basics
 - Show mutual friends on profile
