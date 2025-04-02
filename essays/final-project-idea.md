@@ -29,7 +29,7 @@ Users can access a ‘Friends List’ page to favorite, block, or delete existin
 * Chat page 
 * Settings page
 
-Here are tentative descriptions of certain pages:
+Here are tentative descriptions of certain page implementations:
 
 **User Profile:** Add/edit name, photo(s), major, likes/interests, list of (previous/current) classes, dorm/commuter/other status, clubs, MBTI
 
