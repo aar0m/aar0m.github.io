@@ -11,7 +11,7 @@ labels:
 ## Overview
 **Problem:** Despite 20,000 students on the UH Manoa campus, some students may have a hard time making friends outside of their (ongoing/previous) classes or majors. For freshmen and sophomores, this could be due to being in a completely new environment; juniors and seniors may not have the time to commit to social events, find it difficult to meet classmates outside of their current major, or have a hard time breaking into pre-existing friend groups. By developing friendships outside of a specific major, students can meet new perspectives, network to find prospective career paths, and find unique experiences in UH Manoa.
 
-**Solution:** To facilitate student connection, we introduce **Manoa Matching**, a social networking app that applies similar matching functionalities as dating apps (_Tinder_, _Hinge_, etc.) but in the context of finding friends on the UH Manoa campus. 
+**Solution:** To facilitate student connection, we introduce **Manoa Matching**, a social networking app that applies matching functionalities reminiscent of dating apps (_Tinder_, _Hinge_, etc.) but in the context of finding friends on the UH Manoa campus. 
 
 **Authored by:** Codie Nakamura, Chaezen-Lee Pebria, Aaron Ramos, Masaki Sakai
 
