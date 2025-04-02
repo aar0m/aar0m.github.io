@@ -24,7 +24,7 @@ Users can access a ‘Friends List’ page to favorite, block, or delete existin
 * Landing page
 * User home page
 * User profile page
-  - Add name, photo, major, likes/interests, list of (previous/current) classes, dorm/commuter/other status, clubs, MBTI
+  - Add name, photo(s), major, likes/interests, list of (previous/current) classes, dorm/commuter/other status, clubs, MBTI
 * "Matching" page 
   - Random person pops up and users have the option of “match” or “skip” with two buttons
 * Friends page
@@ -36,7 +36,7 @@ Users can access a ‘Friends List’ page to favorite, block, or delete existin
 // - Limit on likes (maybe)
 
 ## Use Case Ideas
-* User goes to landing page, signs up, completes account creation process (add likes, interests, list of classes taking + past classes, dorm/commuter/other)
+* User goes to landing page, signs up, completes account creation process (adds their name, photo(s), major, likes/interests, list of (previous/current) classes, dorm/commuter/other status, clubs, MBTI)
 * After creating profile, user is brought to matching page and intuitively learns to "match"/"skip"’
 * If 2 users “match” on each other’s profiles, they are added to each others’ ‘Friends List’ page and  given a notification above the user profile  that leads them into the chat page
 * _Best case:_ Users chat with each other and become friends.
