@@ -1,0 +1,48 @@
+---
+layout: essay
+type: essay
+title: "Final Project Idea -- Manoa Matching"
+date: 2025-04-01
+labels:
+  - Software Engineering
+  - Nextjs
+---
+
+## Overview
+**Problem:** Despite 20,000 students on the UH Manoa campus, some students may have a hard time making friends outside of their (ongoing/previous) classes or majors. For freshmen and sophomores, this could be due to being in a completely new environment; juniors and seniors may not have the time to commit to social events, find it difficult to meet classmates outside of their current major, or have a hard time breaking into pre-existing friend groups. By developing friendships outside of a specific major, students can meet new perspectives, network to find prospective career paths, and find unique experiences in UH Manoa.
+
+**Solution:** To facilitate student connection, we introduce **Manoa Matching**, a social networking app that applies similar matching functionalities as dating apps (_Tinder_, _Hinge_, etc.) but in the context of finding friends on the UH Manoa campus. 
+
+**Authored by:** Codie Nakamura, Chaezen-Lee Pebria, Aaron Ramos, Masaki Sakai
+
+## Approach
+After creating an account, users can approve or skip profiles randomly shown to them. These profiles will likely contain a name, image(s), and relevant information placed during account creation. When two users approve each other’s profiles, they are given the opportunity to chat with each other on a separate page. 
+
+Users can access a ‘Friends List’ page to favorite, block, or delete existing friends. Another important page would be a user ‘Profile Page’ where various profile details (including photos) can be edited.
+
+## Mockup Page Ideas
+* Landing page
+* User home page
+* User profile page
+  - Add name, photo, major, likes/interests, list of (previous/current) classes, dorm/commuter/other status, clubs, MBTI
+* "Matching" page 
+  - Random person pops up and users have the option of “match” or “skip” with two buttons
+* Friends page
+  - Favorites/block list and delete feature
+* Chat page 
+  - List of chats with people matched and selected chat page
+* Settings page
+  - Settings to filter people shown (i.e. )
+// - Limit on likes (maybe)
+
+## Use Case Ideas
+* User goes to landing page, signs up, completes account creation process (add likes, interests, list of classes taking + past classes, dorm/commuter/other)
+* After creating profile, user is brought to matching page and intuitively learns to "match"/"skip"’
+* If 2 users “match” on each other’s profiles, they are added to each others’ ‘Friends List’ page and  given a notification above the user profile  that leads them into the chat page
+* _Best case:_ Users chat with each other and become friends.
+* _Worst case:_ After some chats, a user decides to delete/block the other.
+
+## Beyond the Basics
+- Show mutual friends on profile
+- Pathing compatibility (GIS), consider students who may constantly cross paths due to classes
+- Campus event suggestions for people of the same interest to attend
