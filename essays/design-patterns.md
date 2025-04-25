@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Develop, design, dominate"
+title: "Design patterns for everyone"
 # All dates must be YYYY-MM-DD format!
 date: 2025-04-24
 published: true
@@ -10,7 +10,7 @@ labels:
   - Programming Languages
 ---
 
-<img width="750px" class="rounded float-start pe-4" src="../img/essays-img/design-pattern-cover.jpg">
+<img width="1280px" class="rounded pe-4 inline-block" src="../img/essays-img/design-pattern-cover.jpg">
 
 I am a firm believer in
 
@@ -23,7 +23,7 @@ With enough projects, developers not only gain experience in creating software b
 ## Reusing code the right way
 _Design patterns_ actually stem from architecture, in which architects would repeatedly use certain designs when projects had distinct conditions to be considered (i.e., roofs in areas that receive heavy rain vs. roofs in arid places). In the context of software engineering, design patterns are pretty similar. As programmers continued to create projects, they began seeing patterns and commonalities within pieces of code that could essentially be reused for different yet similar apps. Thus, in the field of software engineering, design patterns refer to structures or designs of code that solves recurring issues or implements common functionalities in vastly different situations. 
 
-One interpretation of software design patterns are _templates_, which I heavily resonate with as someone with experience in graphic design. Essentially, design patterns are the coding equivalent of finding some template and modifying it to satisfy certain criteria. Design patterns are typically given a **name**, **issue and solution description**, as well as **consequences**, meaning that programmers still have to think before they immediately jump to using design patterns when developing software. However, if used with diligence, design patterns in coding can significantly decrease overhead in the planning and implementation phases of deployment, yielding more time for user-testing, validation, and improvements to the codebase. Such design patterns are so useful that they have been outlined in the book refered to as [_Gang of Four_](https://www.amazon.com/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8) (Design Patterns: Elements of Reusable Object-Oriented Software). It covers the 23 object-oriented patterns shown:
+One interpretation of software design patterns are _templates_, which I heavily resonate with as someone with experience in graphic design. Essentially, design patterns are the coding equivalent of finding some template and modifying it to satisfy certain criteria. Design patterns are typically given a **name**, **issue and solution description**, as well as **consequences**, meaning that programmers still have to think before they immediately jump to using design patterns when developing software. However, if used with diligence, design patterns in coding can significantly decrease overhead in the planning and implementation phases of deployment, yielding more time for user-testing, validation, and improvements to the codebase. Such design patterns are so useful that they have been outlined in the book refered to as [_Gang of Four_](https://www.amazon.com/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8) (actually titled as _Design Patterns: Elements of Reusable Object-Oriented Software_). It covers the 23 object-oriented patterns shown:
 
 <img width="750px" class="rounded float-start pe-4 text-center d-flex justify-content-center align-middle" src="../img/essays-img/design-pattern.png">
 
