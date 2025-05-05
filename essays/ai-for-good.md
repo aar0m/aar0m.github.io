@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "AI "
+title: "Artificially Intelligent Engineers"
 # All dates must be YYYY-MM-DD format!
 date: 2025-05-05
 published: true
@@ -24,7 +24,7 @@ labels:
 8. [Conclusion](#viii-what-now)
 
 ## I. The rise of AI in education
-With the rapid spread and development of generative artificial intelligence (AI), its adoption in various fields are unsurprising. One such field—education—has felt the drastic effects of generative AI, shifting the landscape of education altogether. In the modern day, students have become reliant on AI to complete various assignments while professors may use it to grade work, send emails, or even prepare lesson plans and entire syllabi.
+With the rapid spread and development of generative artificial intelligence (AI), its adoption in various fields is unsurprising. One such field—education—has felt the drastic effects of generative AI, shifting the landscape of education altogether. In the modern day, students have become reliant on AI to complete various assignments while professors may use it to grade work, send emails, or even prepare lesson plans and entire syllabi.
 
 In the context of software engineering (and programming in general), AI has—for better or worse—diminished the incentive for writing code in lieu of a new type of engineering: _prompt engineering_. Rather than honing fundamental skills and absorbing materials, some students may find themselves learning how to communicate with AI companions to generate outputs they deem sufficient for an assignment, project, or report. As my software engineering professor graciously stated, 
 
@@ -130,3 +130,5 @@ By clarifying how traditional software engineering workflows, innovations, and m
 Presenting methods to use AI effectively, such as for self-studying, prompting for citations, quick alterations, and output validation will shield students from blindly prompting and interpreting AI chatbots as an infallible source of truth. 
 
 Lastly, presenting use cases for AI, both in and out of the classroom, will assist in defining the line between using AI to speed up a process/workflow versus using AI as a sloppy substitute for a solution.
+
+In conclusion, better integration of AI within education will make for stronger professionals who will not be baffled by technological advancements but still sharp enough to recall foundational and fundamental skills without over reliance on external tools.
