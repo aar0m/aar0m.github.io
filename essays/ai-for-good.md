@@ -18,7 +18,7 @@ labels:
 2. [Personal Experience with AI](#ii-getting-with-the-times)
 3. [Impact on Learning and Understanding](#iii-code-faster--but-at-what-cost)
 4. [Practical Applications](#iv-ai-in-the-real-world)
-5. [Challenges and Opportunities](#v-redefine-learning)
+5. [Challenges and Opportunities](#v-redefining-learning)
 6. [Comparative Analysis](#vi-classroom-companions-or-distractions)
 7. [Future Considerations](#vii-better-integration-better-engineers)
 8. [Conclusion](#viii-what-now)
