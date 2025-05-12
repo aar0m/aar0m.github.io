@@ -12,7 +12,7 @@ labels:
   - Agile Project Management
 ---
 
-<img width="50%" class="rounded float-start d-flex" src="../img/essays-img/software-eng.png">
+<img width="50%" class="rounded float-start d-flex pe-4" src="../img/essays-img/software-eng.png">
 
 Throughout my software engineering course, my knowledge about various programming concepts and additional tools has expanded greatly. Though this was primarily learned and applied within the context of web development, such lessons will stick with me throughout the rest of my computer engineering career. Three of note include: 
 - **the functional programming paradigm**, 
@@ -70,7 +70,7 @@ Being honest, I was not initially receptive to user interface frameworks (UI fra
 
 Once I let go of my ego and gained more hands-on practice with UI frameworks, namely [ReactJS](https://react.dev/), I began to understand its various benefits and how to still retain some fine customization capabilities. Specifically, I learned how frameworks and templates are essential in a real-world development environment as they allow for quick prototyping and fast feature testing without programmers being bogged down with writing boilerplate code. This combined with cascading style sheets allow for rapid development with a decent amount of personalization. Moreover, UI frameworks can provide additional structure to projects and inherently provide cohesion for an entire project. Certain frameworks like React Bootstrap are especially helpful in simplifying the spatial layout of an application.
 
-A fantastic example demonstrating this shortened development time is a project where I (_somewhat_) accurately recreated the homepage aesthetics (pictured top) of an existing website (pictured bottom) within a single day. Though it did not have all the technical functionality, I believe that recreating the aesthetics of a fleshed out homepage in a short timeframe exemplifies how UI frameworks directly facilitate the web development process.
+A fantastic example demonstrating this shortened development time is a project where I (_somewhat_) accurately recreated the homepage aesthetics (pictured left) of an existing website (pictured right) within a single day. Though it did not have all the technical functionality, I believe that recreating the aesthetics of a fleshed out homepage in a short timeframe exemplifies how UI frameworks directly facilitate the web development process.
 
 <div class='row align-items-start'>
   <div class='col'>
@@ -91,13 +91,14 @@ Funny enough, my software engineering class was not the only course this semeste
 
 Through this experience, I found myself to be very productive and the project to be developing at a rapid pace alongside my skills. I went from being shaky with React elements, object relational mapping using Prisma, and Vercel deployment to seamlessly building, testing, debugging, and eventually launching the side. Within the span of 3-4 weeks, my team and I were able to produce a generally functional output ready for desktop users, with the [Manoa Connect](https://manoa-connect-now.vercel.app/) having most of the features we intended it to (profiles, picture uploading functionality, chats, matching function, personal schedules).
 
-<div class='row align-items-start'>
-  <div class='col'>
-    <img width="100%" class="rounded" src="../img/essays-img/manoa-connect-1.png">
-  </div>
-
-  <div class='col'>
-    <img width="100%" class="rounded" src="../img/essays-img/manoa-connect-2.png">
+<div class='row align-items-start py-4'>
+  <div class="col">
+    <div class='row'>
+      <img width="100%" class="rounded" src="../img/essays-img/manoa-connect-1.png">
+    </div>
+    <div class='row'>
+      <img width="100%" class="rounded" src="../img/essays-img/manoa-connect-2.png">
+    </div>
   </div>
 
   <div class='col'>
