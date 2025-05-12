@@ -12,7 +12,7 @@ labels:
   - Agile Project Management
 ---
 
-<img width="50%" class="rounded float-start d-flex p-5" src="../img/essays-img/software-eng.png">
+<img width="50%" class="rounded float-start d-flex pb-5 pe-5" src="../img/essays-img/software-eng.png">
 
 Throughout my software engineering course, my knowledge about various programming concepts and additional tools has expanded greatly. Though this was primarily learned and applied within the context of web development, such lessons will stick with me throughout the rest of my computer engineering career. Three of note include: **the functional programming paradigm**, **user interface frameworks**, and **agile project management**. 
 

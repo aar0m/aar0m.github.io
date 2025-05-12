@@ -25,6 +25,23 @@ Additionally, this project has taught me how to effectively communicate with oth
 
 The following are some card designs and logo concepts I created for Altar.
 
-<img class="img-fluid" width="350px" src="../img/altar/altar-logo-sheet.png">
-<img class="img-fluid" width="250x" src="../img/altar/bearClaw.png">
-<img class="img-fluid" width="250px" src="../img/altar/bearHide.png">
+<img class="img-fluid" width="100%" src="../img/altar/altar-logo-sheet.png">
+
+<div class="row">
+  <div class="col">
+    <img class="img-fluid" src="../img/altar/bearClaw.png">
+  </div>
+
+  <div class="col">
+    <img class="img-fluid" src="../img/altar/bearHide.png">
+  </div>
+
+  <div class="col">
+    <img class="img-fluid" src="../img/altar/bearSnout.png">
+  </div>
+
+  <div class="col">
+    <img class="img-fluid" src="../img/altar/bearTeeth.png">
+  </div>
+
+</div>
