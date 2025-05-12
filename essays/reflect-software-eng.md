@@ -101,8 +101,13 @@ Through this experience, I found myself to be very productive and the project to
     </div>
   </div>
 
-  <div class='col'>
-    <img width="100%" class="rounded" src="../img/essays-img/manoa-connect-prof.png">
+  <div class="col">
+    <div class='row'>
+      <img width="100%" class="rounded" src="../img/essays-img/manoa-connect-prof.png">
+    </div>
+    <div class='row'>
+      <img width="100%" class="rounded" src="../img/essays-img/manoa-connect-match.png">
+    </div>
   </div>
 </div>
 
