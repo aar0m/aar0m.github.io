@@ -1,31 +1,40 @@
 ---
 layout: project
 type: project
-image: img/altar/altar-logo.png
-title: "Altar"
-date: 2024-10-03
+image: img/projects-img/bfc-cover.png
+title: "Ben Franklin Crafts Site Update"
+date: 2025-05-08
 published: true
 labels:
   - Project Management
   - Graphic Design
   - Customer Discovery
   - Figma
-summary: "A personal group project developing a roguelike deckbuilding game."
+summary: "A real-world group project to aid Ben Franklin Crafts in their expansion of current digital platforms."
 ---
 
-## Gameplay
-Altar is a _roguelike deckbuilding game_ that is set during the 14th century. The general gameplay loop of Altar is building a deck of cards to use as a means of defeating demons. During battle, cards can be placed onto a pentagram, in which card effects can be chained together to perform interesting combos or directly deal damage to the demons until they have no remaining health left. In between battles, the player is presented with additional cards they can purchase to add to their deck. This is the main premise of our game.
+## Brick-and-Mortar
+Ben Franklin Crafts Hawaiʻi (BFC) is a family owned business with locally managed stores spread across Oahu, Maui, and Big Island. They are primarily a brick-and-mortar store that participates in various community engagement activities like in-store workshops/classes or their **myLocker** program that allows local crafters to both display and sell their items at their store locations. However, current capabilities for this business is somewhat limited with unoptimized social media presence and an outdated website. This project assesses online avenues that can be implemented to help Ben Franklin Crafts reach a newer, digital customerbase. For confidentiality purposes, I will mainly highlight our social media and website updates.
 
-<img class="img-fluid" width="100%" class="rounded float-start pe-4" src="../img/altar/Altar_Demo.jpg">
+## Online Expansion
+In addition to other solutions, our group proposed creating high-quality reels and an updating visual aesthetics of the website, alongside additional site features. Our group came to this solution by performing interviews with customers and BFC-related staff, comeptitive market research, and general market research. For enhanced social media content, we suggested various optimizations distinct to the short-form content platforms used (i.e. Instagram Reels). With these examples, we produced the following [reel](https://www.instagram.com/reel/DGj-QtEyde1/), which outperformed average engagement metrics. Moreover, we found that customers are seeking convenience-related features for the website like digital sign-ups, coupons, and community interaction. Such feedback resulted in a prototype (i.e. wireframe) made in Figma, with capabilities that allow for a navigational demonstration:
+
+<div class="row">
+  <div class="col">
+    <img class="img-fluid" src="../img/projects-img/bfc-home.png">
+  </div>
+
+  <div class="col">
+    <img class="img-fluid" src="../img/projects-img/bfc-projects.png">
+  </div>
+</div>
 
 ## Contributions
-As of right now, Altar is still in development but I have been hard at work as a digital illustrator and graphic designer. Under these roles, I have been able to create concept art for cards, design tentative logos, and draft mob designs that will be implemented into the game. 
+As a project manager, my main duties for this project was to coordinate, plan, and execute solutions within an agile project management methodology. This entailed setting up meetings with our sponsor (upper management of BFC) and performing lengthy research so that we could plan prototypes and test it with a small group of customers for additional feedback.
 
-## Skills!
-Additionally, this project has taught me how to effectively communicate with others and establish a style of collaboration that can be applied to the real world. Technical skills I practice within this project include digital illustration, designing mockups, and developing UI elements.
+On top of coordinating efforts, communicating with all required parties, I helped document our research, and documenting research, I also assisted in creating/presenting slides for weekly updates of the project. I was also the main contributor for the wireframe, dictating the layout and style of the updated website. 
 
-The following are some card designs and logo concepts I created for Altar.
+## Skills
+The main skills learned throughout this project are ones related to project management: time management, leadership, coordination, hosting online meetings, and oral presentations are some skills I have extensively practiced. Such capabilities are very practical in the real world as they are not exclusive to software/computer engineering.
 
-<img class="img-fluid" width="350px" src="../img/altar/altar-logo-sheet.png">
-<img class="img-fluid" width="250x" src="../img/altar/bearClaw.png">
-<img class="img-fluid" width="250px" src="../img/altar/bearHide.png">
+I also used a lot of graphic design skills, like Figma to prototype the wireframe, as well as Adobe Photoshop to create a coupon promoted through social media. Altogether, this project has helped me develop in the direction of project management while allowing me to gain some real-world business experience through working with a team, as well as an established sponsor.
