@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/altar/altar-logo.png
+image: img/projects-img/manoa-connect.png
 title: "Manoa Connect"
 date: 2025-05-08
 published: true
