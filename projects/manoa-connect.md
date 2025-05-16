@@ -53,7 +53,7 @@ For new users, the website prompts them to create a new account and profile with
   </div>
 </div>
 
-<div class="row align-items-center align-middle d-flex">
+<div class="row align-items-center align-middle d-flex pb-5">
   <img width="100%" class="rounded" src="../img/projects-img/manoa-connect-chat.png">
 </div>
 

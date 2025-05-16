@@ -69,7 +69,7 @@ Once I let go of my ego and gained more hands-on practice with UI frameworks, na
 
 A fantastic example demonstrating this shortened development time is a project where I (_somewhat_) accurately recreated the homepage aesthetics (pictured left) of an existing website (pictured right) within a single day. Though it did not have all the technical functionality, I believe that recreating the aesthetics of a fleshed out homepage in a short timeframe exemplifies how UI frameworks directly facilitate the web development process.
 
-<div class='row align-items-start'>
+<div class='row align-items-start pb-5'>
   <div class='col'>
     <img width="100%" class="rounded" src="../img/essays-img/bootstrap-remake.png">
   </div>

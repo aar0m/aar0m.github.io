@@ -17,7 +17,6 @@ summary: "A vertically integrated project under the Department of Electrical and
 <img class="img-fluid" width="700px" class="rounded float-start pe-4 pb-5" src="../img/goatsandtigers/goats-tigers-demo.png">
 
 
-## Gameplay
 "Goats and Tigers" or _Huligutta_ is a turn-based game that pits two players against each other on a uniquely shaped map consisting of empty nodes. Similar to chess, each player takes control of a piece (Goat or Tiger) and must achieve a piece-specific win condition based on their available move set. Three Tiger pieces exist on the board before the game starts and can be moved immediately, whereas 15 Goat pieces must be placed on the board before each individual piece can be moved. Both pieces can only move to adjacent nodes. 
 
 ### Win conditions
