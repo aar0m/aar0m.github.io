@@ -4,7 +4,7 @@ type: project
 image: img/personal/personal-logo.png
 title: "Personal Portfolio"
 date: 2024-12-22
-published: true
+published: false
 labels:
   - HTML/CSS
   - JavaScript
@@ -13,7 +13,7 @@ labels:
 summary: "My personal website developed from scratch using HTML/CSS."
 ---
 
-<img class="img-fluid" src="../img/personal/personal-home.png">
+<img class="img-fluid pb-5" src="../img/personal/personal-home.png">
 
 ## Design method and elements
 This personal portfolio is my first full project implementing HTML, CSS, and JavaScript using the Visual Studio Code IDE and GitHub for deployment. I intend to maintain this website and develop it alongside my professional portfolio. Contents of the website include an 'About' section detailing a short introduction, an interactive 'Experience' section that employs JavaScript to display my work from different years, 'Projects' which links to a different page, and a 'Contact' form at the end. It currently displays multiple HTML form elements, links, and feedback is returned from the form via email to a business account. The website was made with an emphasis on **interactivity** and **style**.

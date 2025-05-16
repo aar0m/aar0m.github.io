@@ -14,11 +14,12 @@ summary: "A group project developing a web app that connects UH Manoa students o
 ---
 <img width="100%" class="rounded" src="../img/essays-img/manoa-connect-1.png">
 
+## Relevant Links
 - [GitHub](https://github.com/manoa-connect)
 - [Deployed Application](https://manoa-connect-now.vercel.app/)
 
 ## Purpose
-Manoa Connect, a social networking website that applies matching functionalities reminiscent of dating apps (Tinder, Hinge, etc.), was built to facilitate student connection on the UH Manoa campus. It is understandable some students have difficulty being in a foreign environment (i.e. incoming freshmen, sophomores, exchange students) or difficulty breaking into established social groups (i.e. juniors/seniors). Additionally, some students lack time to commit to social events and may be socially inexperience/have an introverted nature. Moreover, the lockdown enforced during the pandemic may have shifted cultural norms on offline socialization (i.e. people may prefer socializing online more now).
+Manoa Connect, a social networking website that applies matching functionalities reminiscent of dating apps (Tinder, Hinge, etc.), was built to facilitate student connection on the UH Manoa campus. It is understandable some students have difficulty being in a foreign environment (i.e. incoming freshmen, sophomores, exchange students) or difficulty breaking into established social groups (i.e. juniors/seniors). Additionally, some students lack time to commit to social events and may be socially inexperience/have an introverted nature. Moreover, the quarantine enforced during the pandemic may have shifted cultural norms on offline socialization (i.e. people may prefer socializing online more now).
 
 By creating a thriving social platform distinct to members of UH Manoa (specifically students), we hope students can:
 - Develop friendships with people from different majors at UH Manoa to learn new perspectives
