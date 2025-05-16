@@ -3,6 +3,7 @@ layout: essay
 type: essay
 title: "Final Project Idea -- Manoa Matching"
 date: 2025-04-01
+published: false
 labels:
   - Software Engineering
   - Nextjs

@@ -13,7 +13,6 @@ labels:
 summary: "A real-world group project to aid Ben Franklin Crafts in their expansion of current digital platforms."
 ---
 
-## Brick-and-Mortar
 Ben Franklin Crafts Hawaiʻi (BFC) is a family owned business with locally managed stores spread across Oahu, Maui, and Big Island. They are primarily a brick-and-mortar store that participates in various community engagement activities like in-store workshops/classes or their **myLocker** program that allows local crafters to both display and sell their items at their store locations. However, current capabilities for this business is somewhat limited with unoptimized social media presence and an outdated website. This project assesses online avenues that can be implemented to help Ben Franklin Crafts reach a newer, digital customerbase. For confidentiality purposes, I will mainly highlight our social media and website updates.
 
 ## Online Expansion

@@ -11,9 +11,7 @@ labels:
   - StackOverflow
 ---
 
-<img width="100%" src="../img/essays-img/questions.png">
-
-## Curiosity: a tragic cause of death
+<img width="100%" src="../img/essays-img/questions.png" class="pb-3">
 
 Throughout the life cycle of various programs and projects, both experienced and newbie programmers alike eventually encounter issues that they simply do not know the answer to. This is where the distinction between experienced and newbie is exposed; experienced programmers embark on a troubleshooting process that involves due diligence and asking smart questions, whilst newbie programmers may feel inclined to immediately ask for help.
 

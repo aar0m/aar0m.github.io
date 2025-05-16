@@ -4,7 +4,7 @@ type: essay
 title: "Frameworks make frames work, CSS to pretty up the excess"
 # All dates must be YYYY-MM-DD format!
 date: 2025-02-27
-published: true
+published: false
 labels:
   - HTML/CSS
   - UI Frameworks

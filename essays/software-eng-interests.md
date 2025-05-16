@@ -4,7 +4,7 @@ type: essay
 title: "When in software engineering, do ... what?"
 # All dates must be YYYY-MM-DD format!
 date: 2025-01-22
-published: true
+published: false
 labels:
   - Software Engineering
   - Development
