@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/goatsandtigers/goats-and-tigers_wallpaper_centered.png
 title: "Goats and Tigers"
-date: 2024-01-14
+date: 2025-05-09
 published: true
 labels:
   - Python

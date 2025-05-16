@@ -4,7 +4,7 @@ type: project
 image: img/weight-tracker/weight-logo.png
 title: "Weight Tracker"
 date: 2024-12-28
-published: true
+published: false
 labels:
   - Python
   - Automation
